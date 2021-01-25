@@ -1,0 +1,19 @@
+.ball {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  background: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  animation: bounce 2s linear infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate Y(0);
+  }
+  to {
+    transform: translateY(100px);
+  }
+}

@@ -1,0 +1,51 @@
+.ball {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  background: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  animation: bounce 2s linear infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate Y(0);
+  }
+  to {
+    transform: translateY(100px);
+  }
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ff80ff;
+}
+
+header {
+  position: relative;
+  height: 250px;
+  background-image: url("/ocean.fbffb729.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color: purple;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+
+.ball-cont {
+  background-color: yellow;
+  height: 200px;
+}
+
+img {
+  width: 100px;
+  display: block;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
